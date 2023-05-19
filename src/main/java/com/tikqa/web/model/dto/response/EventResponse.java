@@ -1,6 +1,6 @@
 package com.tikqa.web.model.dto.response;
 
-import com.automasi.nocodeautomation.model.dto.EventDTO;
+import com.tikqa.web.model.dto.EventDTO;
 import lombok.Getter;
 import lombok.Setter;
 

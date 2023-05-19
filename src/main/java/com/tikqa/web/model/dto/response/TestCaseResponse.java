@@ -1,6 +1,6 @@
 package com.tikqa.web.model.dto.response;
 
-import com.automasi.nocodeautomation.model.dto.request.TestStepRequest;
+import com.tikqa.web.model.dto.request.TestStepRequest;
 import lombok.Getter;
 import lombok.Setter;
 

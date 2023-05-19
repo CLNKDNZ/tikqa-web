@@ -1,6 +1,6 @@
 package com.tikqa.web.model.dto.response;
 
-import com.automasi.nocodeautomation.model.dto.request.SelectorTypeResponse;
+import com.tikqa.web.model.dto.request.SelectorTypeResponse;
 import lombok.Data;
 
 import java.time.LocalDateTime;
