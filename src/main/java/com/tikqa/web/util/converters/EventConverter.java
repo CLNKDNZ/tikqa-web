@@ -5,6 +5,7 @@ import com.tikqa.web.model.dto.request.EventRequest;
 import com.tikqa.web.model.dto.response.EventResponse;
 import com.tikqa.web.model.entity.TestCaseEvent;
 import lombok.AllArgsConstructor;
+import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
 @Component

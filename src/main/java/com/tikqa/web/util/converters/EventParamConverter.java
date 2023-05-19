@@ -6,6 +6,8 @@ import com.tikqa.web.model.dto.request.EventParamResponse;
 import com.tikqa.web.model.entity.EventParam;
 import lombok.AllArgsConstructor;
 
+import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

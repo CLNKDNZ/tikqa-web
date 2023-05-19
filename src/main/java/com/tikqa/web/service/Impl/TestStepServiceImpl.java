@@ -13,6 +13,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+import static com.tikqa.web.model.dto.response.RestResponse.success;
+
 
 @AllArgsConstructor
 @Service
@@ -36,7 +38,7 @@ public class TestStepServiceImpl implements TestStepService {
         existingTestStep = testStepConverter.convertTestStepDTOToEntity(testStepRequest);
         var savedData = testStepRepository.save(existingTestStep);
         var testStepResponse = testStepConverter.convertTestStepEntityToResponse(savedData);
-        return RestResponse.success(testStepResponse);
+        return success(testStepResponse);
     }
 
     @Override
