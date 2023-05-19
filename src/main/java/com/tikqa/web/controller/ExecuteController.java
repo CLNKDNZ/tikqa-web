@@ -1,7 +1,10 @@
 package com.tikqa.web.controller;
 
 
+import com.tikqa.web.model.dto.request.ExecuteRequest;
+import com.tikqa.web.model.dto.response.EventResponse;
 import lombok.AllArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

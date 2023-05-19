@@ -1,9 +1,15 @@
 package com.tikqa.web.controller;
 
 
+import com.tikqa.web.model.dto.request.TestCaseRequest;
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.model.dto.response.TestCaseResponse;
+import com.tikqa.web.service.TestCaseService;
+import jakarta.websocket.server.PathParam;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 
 
 @RestController

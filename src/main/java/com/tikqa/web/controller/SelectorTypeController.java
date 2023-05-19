@@ -1,6 +1,10 @@
 package com.tikqa.web.controller;
 
 
+import com.tikqa.web.model.dto.request.SelectorTypeRequest;
+import com.tikqa.web.model.dto.request.SelectorTypeResponse;
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.service.SelectorTypeService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

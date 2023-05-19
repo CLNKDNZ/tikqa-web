@@ -4,6 +4,7 @@ package com.tikqa.web.service.Impl;
 import com.tikqa.web.model.dto.request.EventRequest;
 import com.tikqa.web.model.dto.request.TestStepRequest;
 import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.model.dto.response.TestCaseEventResponse;
 import com.tikqa.web.model.entity.TestCaseEvent;
 import com.tikqa.web.repository.EventRepository;
 import com.tikqa.web.service.EventService;
@@ -14,6 +15,7 @@ import org.openqa.selenium.WebDriver;
 import org.springframework.stereotype.Service;
 
 
+import java.util.List;
 import java.util.Optional;
 
 import static com.tikqa.web.model.dto.response.RestResponse.*;
