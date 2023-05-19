@@ -1,6 +1,10 @@
 package com.tikqa.web.service;
 
 
+import com.tikqa.web.model.dto.request.TestCaseRequest;
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.model.dto.response.TestCaseResponse;
+
 import java.util.List;
 
 public interface TestCaseService {

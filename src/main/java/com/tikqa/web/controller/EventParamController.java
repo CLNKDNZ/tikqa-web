@@ -1,6 +1,10 @@
 package com.tikqa.web.controller;
 
 
+import com.tikqa.web.model.dto.request.EventParamRequest;
+import com.tikqa.web.model.dto.request.EventParamResponse;
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.service.EventParamService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

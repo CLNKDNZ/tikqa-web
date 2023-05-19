@@ -1,6 +1,9 @@
 package com.tikqa.web.util.converters;
 
 
+import com.tikqa.web.model.dto.request.EventRequest;
+import com.tikqa.web.model.dto.response.EventResponse;
+import com.tikqa.web.model.entity.TestCaseEvent;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 

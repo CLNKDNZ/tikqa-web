@@ -1,6 +1,11 @@
 package com.tikqa.web.service;
 
 
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.model.entity.*;
+
+import java.util.List;
+
 public interface OperatorService {
 
     RestResponse<List<OperatingSystem>> getAllOperatingSystemByPlatformId(Long platformId);

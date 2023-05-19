@@ -1,6 +1,13 @@
 package com.tikqa.web.service.Impl;
 
 
+import com.tikqa.web.model.dto.request.EventParamRequest;
+import com.tikqa.web.model.dto.request.EventParamResponse;
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.model.entity.EventParam;
+import com.tikqa.web.repository.EventParamRepository;
+import com.tikqa.web.service.EventParamService;
+import com.tikqa.web.util.converters.EventParamConverter;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -8,6 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 
+import static com.tikqa.web.model.dto.response.RestResponse.*;
 import static java.util.Objects.isNull;
 
 @AllArgsConstructor

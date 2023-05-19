@@ -1,6 +1,12 @@
 package com.tikqa.web.service;
 
 
+import com.tikqa.web.model.dto.request.TestStepRequest;
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.model.dto.response.TestStepResponse;
+
+import java.util.List;
+
 public interface TestStepService {
 
     RestResponse<TestStepResponse> save(TestStepRequest testStepRequest);

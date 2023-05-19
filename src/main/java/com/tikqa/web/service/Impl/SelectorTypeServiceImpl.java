@@ -1,12 +1,20 @@
 package com.tikqa.web.service.Impl;
 
 
+import com.tikqa.web.model.dto.request.SelectorTypeRequest;
+import com.tikqa.web.model.dto.request.SelectorTypeResponse;
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.model.entity.SelectorType;
+import com.tikqa.web.repository.SelectorTypeRepository;
+import com.tikqa.web.service.SelectorTypeService;
+import com.tikqa.web.util.converters.SelectorTypeConverter;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+import static com.tikqa.web.model.dto.response.RestResponse.*;
 import static java.util.Objects.isNull;
 
 @AllArgsConstructor

@@ -1,6 +1,11 @@
 package com.tikqa.web.service;
 
 
+import com.tikqa.web.model.dto.request.SelectorTypeRequest;
+import com.tikqa.web.model.dto.request.SelectorTypeResponse;
+import com.tikqa.web.model.dto.response.RestResponse;
+
+import java.util.List;
 
 public interface SelectorTypeService {
 

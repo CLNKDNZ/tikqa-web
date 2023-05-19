@@ -1,6 +1,14 @@
 package com.tikqa.web.service.Impl;
 
 
+import com.tikqa.web.model.dto.request.EventRequest;
+import com.tikqa.web.model.dto.request.TestStepRequest;
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.model.entity.TestCaseEvent;
+import com.tikqa.web.repository.EventRepository;
+import com.tikqa.web.service.EventService;
+import com.tikqa.web.util.converters.EventConverter;
+import com.tikqa.web.util.converters.TestCaseEventConverter;
 import lombok.AllArgsConstructor;
 import org.openqa.selenium.WebDriver;
 import org.springframework.stereotype.Service;
@@ -8,6 +16,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
+import static com.tikqa.web.model.dto.response.RestResponse.*;
 import static java.util.Objects.isNull;
 
 @AllArgsConstructor
@@ -17,17 +26,8 @@ public class EventServiceImpl implements EventService {
     private final TestCaseEventConverter testCaseEventConverter;
     private final EventRepository eventRepository;
 
-    @Override
-    public Event create(TestStepRequest testStep) {
-        //return eventFactory.createEvent(testStep);
-        return null;
 
-    }
 
-    @Override
-    public void execute(Event event, WebDriver webDriver) {
-        event.execute(webDriver);
-    }
 
     @Override
     public RestResponse<TestCaseEvent> save(EventRequest eventRequest) {

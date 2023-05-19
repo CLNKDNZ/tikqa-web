@@ -1,12 +1,17 @@
 package com.tikqa.web.service.Impl;
 
 
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.model.entity.*;
+import com.tikqa.web.repository.*;
+import com.tikqa.web.service.OperatorService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.tikqa.web.model.dto.response.RestResponse.success;
 
 
 @AllArgsConstructor

@@ -1,14 +1,14 @@
 package com.tikqa.web.service;
 
+import com.tikqa.web.model.dto.request.EventRequest;
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.model.dto.response.TestCaseEventResponse;
+import com.tikqa.web.model.entity.TestCaseEvent;
 import org.openqa.selenium.WebDriver;
 
 import java.util.List;
 
 public interface EventService {
-
-    Event create(TestStepRequest eventName);
-
-    void execute(Event event, WebDriver webDriver);
 
     RestResponse<TestCaseEvent> save(EventRequest event);
 

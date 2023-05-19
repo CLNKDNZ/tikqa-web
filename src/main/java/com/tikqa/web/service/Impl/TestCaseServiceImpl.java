@@ -1,9 +1,18 @@
 package com.tikqa.web.service.Impl;
 
 
+import com.tikqa.web.model.dto.request.TestCaseRequest;
+import com.tikqa.web.model.dto.response.RestResponse;
+import com.tikqa.web.model.dto.response.TestCaseResponse;
+import com.tikqa.web.model.entity.TestCase;
+import com.tikqa.web.repository.TestCaseRepository;
+import com.tikqa.web.service.TestCaseService;
+import com.tikqa.web.util.converters.TestCaseConverter;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Optional;
 
 
 @AllArgsConstructor
@@ -12,7 +21,6 @@ public class TestCaseServiceImpl implements TestCaseService {
     private final TestCaseConverter testCaseConverter;
     private final TestCaseRepository testCaseRepository;
 
-    @Transactional
     @Override
     public RestResponse<TestCaseResponse> save(TestCaseRequest testCaseRequest) {
         TestCase mappedTestCase = testCaseConverter.convertTestCaseDTOToEntity(testCaseRequest);
