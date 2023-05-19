@@ -1,11 +1,11 @@
 package com.tikqa.web.util.converters;
 
-import com.automasi.nocodeautomation.model.dto.request.TestStepRequest;
-import com.automasi.nocodeautomation.model.dto.response.TestStepResponse;
-import com.automasi.nocodeautomation.model.entity.TestStep;
+
+import com.tikqa.web.model.dto.request.TestStepRequest;
+import com.tikqa.web.model.dto.response.TestStepResponse;
+import com.tikqa.web.model.entity.TestStep;
 import lombok.AllArgsConstructor;
-import org.modelmapper.ModelMapper;
-import org.modelmapper.TypeToken;
+
 import org.springframework.stereotype.Component;
 
 import java.util.List;
