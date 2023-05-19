@@ -1,11 +1,5 @@
 package com.tikqa.web.service;
 
-import com.automasi.nocodeautomation.model.dto.request.EventRequest;
-import com.automasi.nocodeautomation.model.dto.request.TestStepRequest;
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
-import com.automasi.nocodeautomation.model.dto.response.TestCaseEventResponse;
-import com.automasi.nocodeautomation.model.entity.TestCaseEvent;
-import com.automasi.nocodeautomation.model.event.Event;
 import org.openqa.selenium.WebDriver;
 
 import java.util.List;

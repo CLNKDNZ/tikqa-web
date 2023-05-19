@@ -1,8 +1,5 @@
 package com.tikqa.web.service;
 
-import com.automasi.nocodeautomation.model.dto.request.TestCaseRequest;
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
-import com.automasi.nocodeautomation.model.dto.response.TestCaseResponse;
 
 import java.util.List;
 

@@ -1,9 +1,5 @@
 package com.tikqa.web.service;
 
-import com.automasi.nocodeautomation.model.dto.request.EventParamRequest;
-import com.automasi.nocodeautomation.model.dto.request.EventParamResponse;
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
-
 import java.util.List;
 
 public interface EventParamService {

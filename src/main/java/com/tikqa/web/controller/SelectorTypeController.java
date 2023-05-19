@@ -1,9 +1,6 @@
 package com.tikqa.web.controller;
 
-import com.automasi.nocodeautomation.model.dto.request.SelectorTypeRequest;
-import com.automasi.nocodeautomation.model.dto.request.SelectorTypeResponse;
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
-import com.automasi.nocodeautomation.service.SelectorTypeService;
+
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

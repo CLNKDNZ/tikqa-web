@@ -1,13 +1,8 @@
 package com.tikqa.web.util.converters;
 
-import com.automasi.nocodeautomation.model.dto.request.TestCaseRequest;
-import com.automasi.nocodeautomation.model.dto.response.TestCaseResponse;
-import com.automasi.nocodeautomation.model.entity.EventParam;
-import com.automasi.nocodeautomation.model.entity.TestCase;
-import com.automasi.nocodeautomation.model.entity.TestStep;
+
 import lombok.AllArgsConstructor;
-import org.modelmapper.ModelMapper;
-import org.modelmapper.TypeToken;
+
 import org.springframework.stereotype.Component;
 
 import java.util.List;

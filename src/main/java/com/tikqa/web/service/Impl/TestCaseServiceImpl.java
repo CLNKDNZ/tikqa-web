@@ -1,18 +1,10 @@
 package com.tikqa.web.service.Impl;
 
-import com.automasi.nocodeautomation.model.dto.request.TestCaseRequest;
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
-import com.automasi.nocodeautomation.model.dto.response.TestCaseResponse;
-import com.automasi.nocodeautomation.model.entity.TestCase;
-import com.automasi.nocodeautomation.repository.TestCaseRepository;
-import com.automasi.nocodeautomation.service.TestCaseService;
-import com.automasi.nocodeautomation.util.converters.TestCaseConverter;
+
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import javax.transaction.Transactional;
-import java.util.List;
-import java.util.Optional;
+
 
 @AllArgsConstructor
 @Service

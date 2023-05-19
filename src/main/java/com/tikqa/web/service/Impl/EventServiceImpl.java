@@ -1,24 +1,13 @@
 package com.tikqa.web.service.Impl;
 
-import com.automasi.nocodeautomation.model.dto.request.EventRequest;
-import com.automasi.nocodeautomation.model.dto.request.TestStepRequest;
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
-import com.automasi.nocodeautomation.model.dto.response.TestCaseEventResponse;
-import com.automasi.nocodeautomation.model.entity.TestCaseEvent;
-import com.automasi.nocodeautomation.model.event.Event;
-import com.automasi.nocodeautomation.repository.EventRepository;
-import com.automasi.nocodeautomation.service.EventService;
-import com.automasi.nocodeautomation.util.converters.EventConverter;
-import com.automasi.nocodeautomation.util.converters.TestCaseEventConverter;
+
 import lombok.AllArgsConstructor;
 import org.openqa.selenium.WebDriver;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+
 import java.util.Optional;
 
-import static com.automasi.nocodeautomation.model.dto.response.RestResponse.fail;
-import static com.automasi.nocodeautomation.model.dto.response.RestResponse.success;
 import static java.util.Objects.isNull;
 
 @AllArgsConstructor

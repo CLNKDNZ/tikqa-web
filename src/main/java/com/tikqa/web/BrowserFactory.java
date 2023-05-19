@@ -1,9 +1,6 @@
 package com.tikqa.web;
 
-import com.automasi.nocodeautomation.model.browser.*;
 import org.springframework.stereotype.Component;
-
-import static org.openqa.selenium.remote.BrowserType.*;
 
 @Component
 public class BrowserFactory {

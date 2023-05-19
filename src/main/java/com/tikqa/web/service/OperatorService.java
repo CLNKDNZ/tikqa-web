@@ -1,9 +1,5 @@
 package com.tikqa.web.service;
 
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
-import com.automasi.nocodeautomation.model.entity.*;
-
-import java.util.List;
 
 public interface OperatorService {
 

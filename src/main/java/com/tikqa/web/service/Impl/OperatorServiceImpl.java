@@ -1,16 +1,12 @@
 package com.tikqa.web.service.Impl;
 
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
-import com.automasi.nocodeautomation.model.entity.*;
-import com.automasi.nocodeautomation.repository.*;
-import com.automasi.nocodeautomation.service.OperatorService;
+
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.automasi.nocodeautomation.model.dto.response.RestResponse.success;
 
 
 @AllArgsConstructor

@@ -1,17 +1,10 @@
 package com.tikqa.web.service.Impl;
 
-import com.automasi.nocodeautomation.model.entity.TikqaRole;
-import com.automasi.nocodeautomation.repository.UserRepository;
+
 import lombok.AllArgsConstructor;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
 import java.util.*;
 
 @AllArgsConstructor

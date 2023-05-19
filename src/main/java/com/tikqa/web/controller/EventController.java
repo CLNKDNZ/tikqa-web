@@ -1,10 +1,6 @@
 package com.tikqa.web.controller;
 
-import com.automasi.nocodeautomation.model.dto.request.EventRequest;
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
-import com.automasi.nocodeautomation.model.dto.response.TestCaseEventResponse;
-import com.automasi.nocodeautomation.model.entity.TestCaseEvent;
-import com.automasi.nocodeautomation.service.EventService;
+
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

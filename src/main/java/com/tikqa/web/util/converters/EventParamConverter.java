@@ -1,11 +1,8 @@
 package com.tikqa.web.util.converters;
 
-import com.automasi.nocodeautomation.model.dto.request.EventParamRequest;
-import com.automasi.nocodeautomation.model.dto.request.EventParamResponse;
-import com.automasi.nocodeautomation.model.entity.EventParam;
+
 import lombok.AllArgsConstructor;
-import org.modelmapper.ModelMapper;
-import org.modelmapper.TypeToken;
+
 import org.springframework.stereotype.Component;
 
 import java.util.List;

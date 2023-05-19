@@ -1,20 +1,12 @@
 package com.tikqa.web.service.Impl;
 
-import com.automasi.nocodeautomation.model.dto.request.SelectorTypeRequest;
-import com.automasi.nocodeautomation.model.dto.request.SelectorTypeResponse;
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
-import com.automasi.nocodeautomation.model.entity.SelectorType;
-import com.automasi.nocodeautomation.repository.SelectorTypeRepository;
-import com.automasi.nocodeautomation.service.SelectorTypeService;
-import com.automasi.nocodeautomation.util.converters.SelectorTypeConverter;
+
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-import static com.automasi.nocodeautomation.model.dto.response.RestResponse.fail;
-import static com.automasi.nocodeautomation.model.dto.response.RestResponse.success;
 import static java.util.Objects.isNull;
 
 @AllArgsConstructor

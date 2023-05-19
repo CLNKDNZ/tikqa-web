@@ -1,10 +1,6 @@
 package com.tikqa.web.service;
 
-import com.automasi.nocodeautomation.model.dto.request.SelectorTypeRequest;
-import com.automasi.nocodeautomation.model.dto.request.SelectorTypeResponse;
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
 
-import java.util.List;
 
 public interface SelectorTypeService {
 

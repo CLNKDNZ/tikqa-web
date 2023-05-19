@@ -1,11 +1,8 @@
 package com.tikqa.web.util.converters;
 
-import com.automasi.nocodeautomation.model.dto.request.SelectorTypeRequest;
-import com.automasi.nocodeautomation.model.dto.request.SelectorTypeResponse;
-import com.automasi.nocodeautomation.model.entity.SelectorType;
+
 import lombok.AllArgsConstructor;
-import org.modelmapper.ModelMapper;
-import org.modelmapper.TypeToken;
+
 import org.springframework.stereotype.Component;
 
 import java.util.List;

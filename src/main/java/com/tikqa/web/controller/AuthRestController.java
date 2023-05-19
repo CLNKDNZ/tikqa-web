@@ -1,16 +1,8 @@
 package com.tikqa.web.controller;
 
-import com.automasi.nocodeautomation.model.dto.request.AuthRequest;
-import com.automasi.nocodeautomation.model.dto.response.RestResponse;
-import com.automasi.nocodeautomation.service.Impl.JwtUtil;
-import com.automasi.nocodeautomation.service.Impl.UserServiceImpl;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
+
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,9 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 
-import static com.automasi.nocodeautomation.enums.ErrorCode.ALREADY_EXIST_TOKEN;
-import static com.automasi.nocodeautomation.model.dto.response.RestResponse.fail;
-import static com.automasi.nocodeautomation.model.dto.response.RestResponse.success;
 
 @RestController
 @CrossOrigin("*")
