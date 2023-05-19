@@ -1,5 +1,6 @@
 package com.tikqa.web.model.dto.request;
 
+import com.tikqa.web.enums.BrowserType;
 import lombok.Getter;
 import lombok.Setter;
 

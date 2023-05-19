@@ -1,5 +1,6 @@
 package com.tikqa.web.model.dto.request;
 
+import com.tikqa.web.enums.EventName;
 import lombok.Getter;
 import lombok.Setter;
 
